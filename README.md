@@ -2,15 +2,20 @@
 
 ffuf - Fuzz Faster U Fool
 
-INSTALLATION
+Ffuf tool A high-speed web fuzzer developed in Go.FFUF is one of the newest and fastest open-source fuzzing tools available. But before we dive in, let's understand what fuzzing is.
 
-If you have recent go compiler installed: go install github.com/ffuf/ffuf/v2@latest (the same command works for updating)
+Fuzzing is the process of automatically providing random input to an application to find errors or unexpected behavior. It can also involve discovering hidden directories and files on a web server. FFUF is the automated tool developed in the Golang language which is the fastest fuzzer tool in today’s date. It has various key features of manipulation the method from GET to POST and vice versa. We can use various wordlists for fuzzing the vhost as well. FFUF tool is an open-source and free-to-use tool.
 
-or
+**1)How to install fuff in kali linux:**
+
+Commmand: sudo apt-get install fuff
+
+
+**Through github:**
 
 git clone https://github.com/ffuf/ffuf ; cd ffuf ; go get ; go build
 
-EXAMPLE USAGE
+**EXAMPLE USAGE**
 
 Suppose you want to fuzz a web application's URL for potential directories or files:
 
